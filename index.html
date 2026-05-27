@@ -5,60 +5,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section class="section-4">
+        <div class="sec4-container">
 
-        <div class="main-text">
-            <p>testimonails</p>
-            <h2>Dare to live the life you've always wanted</h2>
+            <div class="main-text">
+                <p class="title">testimonails</p>
+                <h2>Dare to live the life you've always wanted</h2>
+            </div>
 
-            <button>See all pages</button>
-            <img>
+            <div class="main-button">
+                <img src="./img/sticker.webp">
+            </div>
+
+            <button data-modal-open class="btn-open">See all pages</button>
         </div>
 
-        <div class="div-conteiner">
-            <div>
-                <img>
-                <img>
-                <p>Anna</p>
+        <div class="div-containers">
+
+            <div class="cards">
+                <div class="card-img">
+                    <img class="img-bg" src="./img/annaBg.webp">
+                    <img class="avatar" src="./img/anna.webp">
+                </div>
+
+                <h2>ANNA</h2>
                 <p>Traveling with this team was an amazing experience. Everything was perfectly organized, and I enjoyed
                     every moment of the trip.</p>
-                <img>
+                <div class="stars">★★★★★</div>
             </div>
 
+            <div class="cards">
+                <div class="card-img">
+                    <img class="img-bg" src="./img/markBg.webp">
+                    <img class="avatar" src="./img/mark.webp">
+                </div>
 
-            <div>
-                <img>
-                <img>
-                <p>mark</p>
+                <h2>MARK</h2>
                 <p>The destinations were beautiful, and the service exceeded my expectations. I would definitely travel
                     with them again.</p>
-                <img>
+                <div class="stars">★★★★★</div>
             </div>
 
+            <div class="cards">
+                <div class="card-img">
+                    <img class="img-bg" src="./img/liliaBg.webp">
+                    <img class="avatar" src="./img/lilia.webp">
+                </div>
 
-            <div>
-                <img>
-                <img>
-                <p>lilia</p>
+                <h2>LILIA</h2>
                 <p>I loved the personalized itinerary and the attention to detail. It made my vacation relaxing and
                     unforgettable.</p>
-                <img>
+                <div class="stars">★★★★★</div>
             </div>
 
-            <div>
-                <img>
-                <img>
-                <p>Mickle</p>
+            <div class="cards">
+                <div class="card-img">
+                    <img class="img-bg" src="./img/mickleBg.webp">
+                    <img class="avatar" src="./img/mickle.webp">
+                </div>
+
+                <h2>MICKLE</h2>
                 <p>From booking to the final day of the trip, everything was smooth and professional. Highly recommended
                     for travelers.</p>
-                <img>
+                <div class="stars">★★★★★</div>
             </div>
 
         </div>
-    </section>
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <div class="modal-content">
+
+                    <div class="tes-left">
+
+                        <div class="tes-row">
+                            <p>The travel destinations look absolutely breathtaking. I discovered so many places I want
+                                to visit.</p>
+                            <img src="./img/leftGirl1.webp">
+                        </div>
+
+                        <div class="tes-row">
+                            <p>The travel ideas are incredible and make exploring the world feel easy and exciting.</p>
+                            <img src="./img/leftGirl2.webp">
+                        </div>
+
+                        <div class="tes-row">
+                            <p>The trips and destinations feel exciting and inspiring. Perfect for planning a dream
+                                vacation.</p>
+                            <img src="./img/leftBoy3.webp">
+                        </div>
+
+                    </div>
+
+
+                    <div class="tes-right">
+
+                        <div class="tes-row">
+                            <p>Absolutely loved the design and the travel destinations. Everything feels modern and
+                                inspiring!.</p>
+                            <img src="./img/rightBoy1.webp">
+                        </div>
+
+                        <div class="tes-row">
+                            <p>One of the coolest travel websites I've seen. Everything looks polished and attractive.
+                            </p>
+                            <img src="./img/rightBoy2.webp">
+                        </div>
+
+                        <div class="tes-row">
+                            <p>The website feels professional and relaxing at the same time. Perfect for travel lovers.
+                            </p>
+                            <img src="./img/rightGirl3.webp">
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <button data-modal-close class="btn-close">Back</button>
+            </div>
+
+        </div>
+
+
+        <script src="script.js" defer></script>
 </body>
 
 </html>
