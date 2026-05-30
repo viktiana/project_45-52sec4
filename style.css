@@ -25,17 +25,10 @@ body {
     position: relative;
 }
 
-.sec4-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 50px;
-    position: relative;
-}
 
 .main-text {
     letter-spacing: 1px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -68,6 +61,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    top: -55px;
 }
 
 .section-header {
@@ -81,8 +75,8 @@ body {
     background-color: var(--btn-dark);
     color: var(--white);
     border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
+    padding: 17px 35px;
+    border-radius: 12px;
     cursor: pointer;
     z-index: 1;
     background-color: var(--btn);
@@ -146,6 +140,8 @@ body {
     letter-spacing: 0.5px;
     line-height: 1.5;
     margin-bottom: 12px;
+    text-align: center;
+    margin-top: 55px;
 }
 
 .cards p {
@@ -169,8 +165,8 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh; 
-    background-color: rgba(0, 0, 0, 0.55);
+    height: 100vh;
+    background-color: rgba(17, 17, 19, 0.55);
     z-index: 100;
     display: flex;
     justify-content: center;
