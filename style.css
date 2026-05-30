@@ -151,6 +151,7 @@ body {
     margin-bottom: auto;
     padding: 0 20px;
     flex-grow: 1;
+    text-align: center;
 }
 
 .modal-img {
